@@ -1,6 +1,6 @@
 import React from 'react'
 import File from '../Assets/file.png'
-import CV from '../Assets/arun_resume.pdf'
+import CV from '../Assets/Updated_CV.pdf'
 
 const Resume = () => {
     const links = [
