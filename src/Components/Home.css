@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+/* font-family: 'Rubik', sans-serif; */
+
+.font_nav {
+    font-family: 'Tilt Neon', cursive;
+}
+
+.web_nav {
+    border: none;
+    background-color: rgb(106, 207, 235);
+    width: 40vh;
+    padding: .5rem;
+    box-shadow: 7px 7px rgb(255, 111, 111);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.web_nav:hover {
+    background-color: rgb(255, 146, 146);
+    box-shadow: 7px 7px rgb(111, 236, 255);
+    color: white;
+}
