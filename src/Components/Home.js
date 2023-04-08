@@ -4,7 +4,7 @@ import './Home.css'
 
 const Home = () => {
   return (
-    <div className='px-20 py-24 flex items-center justify-center gap-10 max-md:flex-row bg-slate-50' name='HOME'>
+    <div className='px-20 py-24 flex items-center justify-center gap-10 max-md:flex-row bg-slate-50   max-md:w-max' name='HOME'>
       <div>
       <div className='font-sans text-4xl tracking-wider mt-[10rem] mb-7 font_nav'>
         <h3 className='text-xl mb-5'>Hi i am <span className='text-3xl text-rose-600'>Devarajan...</span></h3>

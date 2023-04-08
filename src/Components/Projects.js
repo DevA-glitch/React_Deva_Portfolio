@@ -8,17 +8,17 @@ import Source from '../Assets/commit-git.png'
 
 const Projects = () => {
   return (
-    <div className=' px-24 py-14 bg-gradient-to-b from-orange-50' name='PROJECT'>
+    <div className=' px-24 py-14 bg-gradient-to-b from-orange-50 max-md:w-max' name='PROJECT'>
       <h1 className='text-center mt-12 text-4xl font-bold'>Projects</h1>
       <p className='mt-6 mb-8 text-center'>These are some of the projects I built to practice and get better at the technologies mentioned above.</p>
       
-      <div className='flex justify-center gap-10'>
+      <div className='flex justify-center gap-10 max-md:flex-col'>
       <div className='w-[35rem] poj_banner  p-4 bg-white'>
         <img className='border border-red-200 hover:p-1 duration-500 cursor-pointer hover:bg-black ' src={Blog} alt='Blog_img' />
-        <p className=' mt-4 font-mono text-[.8rem] tracking-wide'>
-        <span className='text-center mb-2 tracking-widest text-lg font-bold bg-lime-50 text-red-400 p-1 mr-2'>Blog_App:</span>
+        <p className=' mt-4 font-mono text-[.8rem] tracking-wide max-md:text-xs'>
+        <span className=' max-md:text-xstext-center mb-2 tracking-widest text-lg font-bold bg-lime-50 text-red-400 p-1 mr-2 max-md:text-xs'>Blog_App:</span>
           Blogging is a fun and flexible way for self-expression and social connection, so it is no wonder blogs have become very popular.</p>
-        <p className=' mt-2 font-mono text-[.8rem] tracking-wide'>Makes the user to read the magazine without hesitation</p>
+        <p className=' mt-2 font-mono text-[.8rem] tracking-wide max-md:text-xs'>Makes the user to read the magazine without hesitation</p>
         <div className='mt-8 flex gap-5'>
           <button className='px-4 py-1'><a href='https://github.com/DevA-glitch/React_Blog_app' target='_blank'><img className='w-10 h-10 hover:scale-125 duration-300' src={Source} /></a></button>
           <button className='px-4 py-1'><a href='https://amazing-bublanina-022769.netlify.app/' target='_blank'><img className='w-10 h-10 hover:scale-125 duration-300' src={Live} /></a></button>
@@ -39,7 +39,7 @@ const Projects = () => {
 
         
       </div>
-      <div className='flex justify-center gap-10 mt-10'>
+      <div className='flex justify-center gap-10 mt-10 max-md:flex-col'>
         <div className='w-[35rem] poj_banner  p-4 bg-white'>
         <img className='border border-red-200 hover:p-1 duration-500 cursor-pointer hover:bg-black ' src={Ebook} alt='Blog_img' />
         <p className=' mt-4 font-mono tracking-wider text-[.8rem]'>
