@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div>
         <div>
-<div class="container my-24 px-6 mx-auto " name='CONTACT'>
+<div class="container my-24 px-6 mx-auto max-md:w-[34.7rem] " name='CONTACT'>
 
   <section class="mb-32 text-gray-800">
     <div class="flex flex-wrap">
