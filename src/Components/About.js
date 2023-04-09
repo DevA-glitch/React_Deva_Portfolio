@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className='py-20 bg-gradient-to-b from-stone-100 duration-500 max-md:w-[34.7rem]' name='ABOUT'>
               <h1 className='text-center text-4xl font-bold mt-10'>About Me</h1>
-    <p className='text-center mt-4 max-md:w-[29rem]'>
+    <p className='text-center mt-4 max-md:w-[29rem] max-md:ml-12'>
     You will find a little intro about me and the skills and technologies I use daily.</p>
       <div className='px-20 py-5 flex items-center justify-center gap-20 max-md:flex-col '>
         <div className='border-r-2 pr-10'>
@@ -18,7 +18,7 @@ const About = () => {
             </div>
         </div>
         </div>
-        <div className=''>
+        <div className=' max-md:mr-12'>
           <h1 className='text-3xl mb-5'>Skills and Technologies</h1>
           <div className=' mb-5'>
             <ul className='flex items-center gap-5'>
