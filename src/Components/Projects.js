@@ -8,12 +8,12 @@ import Source from '../Assets/commit-git.png'
 
 const Projects = () => {
   return (
-    <div className=' px-24 py-14 bg-gradient-to-b from-orange-50 max-md:w-max' name='PROJECT'>
+    <div className=' px-24 py-14 bg-gradient-to-b from-orange-50 max-md:w-[34.7rem]' name='PROJECT'>
       <h1 className='text-center mt-12 text-4xl font-bold'>Projects</h1>
-      <p className='mt-6 mb-8 text-center'>These are some of the projects I built to practice and get better at the technologies mentioned above.</p>
+      <p className='mt-6 mb-8 text-center max-md:w-[20rem]'>These are some of the projects I built to practice and get better at the technologies mentioned above.</p>
       
       <div className='flex justify-center gap-10 max-md:flex-col'>
-      <div className='w-[35rem] poj_banner  p-4 bg-white'>
+      <div className='w-[35rem] poj_banner  p-4 bg-white max-md:w-[23rem]'>
         <img className='border border-red-200 hover:p-1 duration-500 cursor-pointer hover:bg-black ' src={Blog} alt='Blog_img' />
         <p className=' mt-4 font-mono text-[.8rem] tracking-wide max-md:text-xs'>
         <span className=' max-md:text-xstext-center mb-2 tracking-widest text-lg font-bold bg-lime-50 text-red-400 p-1 mr-2 max-md:text-xs'>Blog_App:</span>
@@ -25,7 +25,7 @@ const Projects = () => {
         </div>
         </div>
 
-        <div className='w-[35rem] poj_banner  p-4 bg-white'>
+        <div className='w-[35rem] poj_banner  p-4 bg-white max-md:w-[23rem]'>
         <img className='border border-red-200 hover:p-1 duration-500 cursor-pointer hover:bg-black ' src={Ecom} alt='Blog_img' />
         <p className=' mt-4 font-mono text-[.8rem] tracking-wide'>
         <span className='text-center mb-2 tracking-widest text-lg font-bold bg-lime-50 text-red-400 p-1 mr-2'>E-Commerce:</span>
@@ -40,7 +40,7 @@ const Projects = () => {
         
       </div>
       <div className='flex justify-center gap-10 mt-10 max-md:flex-col'>
-        <div className='w-[35rem] poj_banner  p-4 bg-white'>
+        <div className='w-[35rem] poj_banner  p-4 bg-white max-md:w-[23rem]'>
         <img className='border border-red-200 hover:p-1 duration-500 cursor-pointer hover:bg-black ' src={Ebook} alt='Blog_img' />
         <p className=' mt-4 font-mono tracking-wider text-[.8rem]'>
         <span className='text-center mb-2 tracking-widest text-lg font-bold bg-lime-50 text-red-400 p-1 mr-2'>Travel_Booking:</span>
@@ -52,7 +52,7 @@ const Projects = () => {
         </div>
         </div>
 
-        <div className='w-[35rem] poj_banner  p-4 bg-white'>
+        <div className='w-[35rem] poj_banner  p-4 bg-white max-md:w-[23rem]'>
         <img className='border border-red-200 hover:p-1 duration-500 cursor-pointer hover:bg-black ' src={Invoice} alt='Blog_img' />
         <p className=' mt-4 font-mono tracking-wider text-[.8rem]'>
         <span className='text-center mb-2 tracking-widest text-lg font-bold bg-lime-50 text-red-400 p-1 mr-2'>Invoice_Gen:</span>

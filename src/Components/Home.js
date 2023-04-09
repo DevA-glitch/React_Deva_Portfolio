@@ -4,22 +4,22 @@ import './Home.css'
 
 const Home = () => {
   return (
-    <div className='px-20 py-24 flex items-center justify-center gap-10 max-md:flex-row bg-slate-50   max-md:w-max' name='HOME'>
-      <div>
+    <div className='px-20 py-24 flex items-center justify-center gap-10 max-md:flex-row bg-slate-50   max-md:w-[34.7rem]' name='HOME'>
+      <div className=' max-md:ml-[6rem]'>
       <div className='font-sans text-4xl tracking-wider mt-[10rem] mb-7 font_nav'>
         <h3 className='text-xl mb-5'>Hi i am <span className='text-3xl text-rose-600'>Devarajan...</span></h3>
         <h1 className=' web_nav mb-5'>Web-Developer</h1>
         <h1 className='mb-1 text-2xl'>Creating thoughtful,</h1>
         <h1 className='text-2xl'>Resposive interfaces.</h1>
       </div>
-      <div className='font-mono text-sm mb-7 w-[35rem]'>
+      <div className='font-mono text-sm mb-7 w-[35rem] max-md:w-[25rem]'>
         <p className='mb-2'>A passionate frontend developer focused on creating interactive, accessible, and responsive websites. </p>
       </div>
-      <div className='flex items-center border-b-2 pb-5'>
+      <div className='flex items-center pb-5'>
         <ul className='flex items-center gap-2 cursor-pointer'>
           <li className=' text-xl'><AiFillGithub /></li>
           <li className=' text-xl'><AiFillLinkedin /></li>
-          <li className=' bg-red-600 tracking-wider text-white px-3 py-1 rounded-2xl text-sm hover:bg-slate-300 hover:text-black'>View Projects</li>
+          <li className=' bg-red-600 tracking-wider max-md:border-none text-white px-3 py-1 rounded-2xl text-sm hover:bg-slate-300 hover:text-black'>View Projects</li>
         </ul>
       </div>
       </div>
