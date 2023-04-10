@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className='px-20 py-24 flex items-center justify-center gap-10 max-md:flex-row bg-slate-50   max-md:w-[34.7rem]' name='HOME'>
       <div className=' max-md:ml-[6rem]'>
-      <div className='font-sans text-4xl tracking-wider mt-[5rem] mb-7 font_nav'>
+      <div className='font-sans text-4xl tracking-wider mt-[5.5rem] mb-7 font_nav'>
         <h3 className='text-xl mb-5'>Hi i am <span className='text-3xl text-rose-600'>Devarajan...</span></h3>
         <h1 className=' web_nav mb-5'>Web-Developer</h1>
         <h1 className='mb-1 text-2xl'>Creating thoughtful,</h1>
